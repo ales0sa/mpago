@@ -1,0 +1,23 @@
+{
+    "name": "ales0sa/mpago",
+    "description": "For use MercadoPago API",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "mercadopago/dx-php": "2.4.9"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ales0sa\\Mpago\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ale",
+            "email": "alesosa@gmail.com"
+        }
+    ]
+}
